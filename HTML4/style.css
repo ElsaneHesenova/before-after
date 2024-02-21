@@ -1,0 +1,92 @@
+/* .box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    height: 200px;
+    /* position: static; */
+    /* position: relative; */
+}
+/* .box2{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+body{
+    height: 1500px;
+} */ */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+section{
+     /* font-size: 10px;  */
+    background-color: #0e183e;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.card{
+    width: 400px;
+    background-color: white;
+    padding: 30px 15px;
+    border-radius: 15px;
+    margin-right: 10px;
+    
+
+}
+.card-info{
+    align-items:center;
+    display:flex;
+
+}
+.range{
+position: relative;
+width: 300px;
+height: 15px;
+background-color: white;
+border-radius: 10px;
+border: 1px solid #c3cde9;
+margin-right: 10px;
+}
+.range::before{
+    content:"";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    
+}
+ .math::before{
+    width: 156px;
+    background-color: #fc9860;
+ 
+
+ }
+ .chemistry::before{
+    width: 228px;
+    background-color:  #608cfc;
+
+ }
+  .science::before{
+    width: 63px;
+    background-color:  #fc6086;
+    
+    .science:hover:: ::before
+    width: 100%;
+
+    }
+
+    
+
+    
+  
+ 
